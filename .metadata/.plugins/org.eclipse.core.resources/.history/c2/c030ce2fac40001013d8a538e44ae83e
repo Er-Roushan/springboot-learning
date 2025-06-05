@@ -1,0 +1,14 @@
+package com.restart.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Demo1 {
+
+	Demo2 d;
+	
+	public void demo1Method() {
+		d.demo2Method();
+		System.out.println("Executing method of Demo1 class.");
+	}
+}
